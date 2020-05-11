@@ -7,7 +7,7 @@ use Faker\Generator as Faker;
 
 $factory->define(Paragraph::class, function (Faker $faker) {
     return [
-        'post-id' => $faker->num,
+        'post_id' => $faker->num,
         'body' => $faker->paragraph
     ];
 });
